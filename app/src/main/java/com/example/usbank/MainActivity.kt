@@ -13,7 +13,7 @@ import com.example.usbank.posts.PostViewModel
 
 class MainActivity : AppCompatActivity() {
 
-    //this is to see change in dev branch
+    //this is to see change in dev branch // check again
 
     val viewModel: PostViewModel by viewModels()
 
