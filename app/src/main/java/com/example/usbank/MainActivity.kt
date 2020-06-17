@@ -31,11 +31,13 @@ class MainActivity : AppCompatActivity() {
 
     fun setRecycler(posts:ArrayList<Post>)
     {
-        var adapter: PostAdapter =
-            PostAdapter()
+        var adapter: PostAdapter = PostAdapter()
         adapter.posts = posts
 
-        recyclerView.adapter = adapter
-        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.apply {
+            adapter = adapter
+            layoutManager = LinearLayoutManager(this@MainActivity)
+        }
+
     }
 }
