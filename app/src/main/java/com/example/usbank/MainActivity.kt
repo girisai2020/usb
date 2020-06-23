@@ -13,7 +13,7 @@ import com.example.usbank.posts.PostViewModel
 
 class MainActivity : AppCompatActivity() {
 
-    //this dev_3 from dev branch
+    //this dev_4 from dev branch
     val viewModel: PostViewModel by viewModels()
 
     lateinit var recyclerView: RecyclerView
