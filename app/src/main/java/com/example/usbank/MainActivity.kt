@@ -11,7 +11,7 @@ import androidx.lifecycle.Observer
 import com.example.usbank.posts.PostAdapter
 import com.example.usbank.posts.PostViewModel
 
-// New Feature
+// New Feature is added
 class MainActivity : AppCompatActivity() {
 
     val viewModel: PostViewModel by viewModels()
