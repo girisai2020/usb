@@ -14,6 +14,7 @@ import com.example.usbank.posts.PostViewModel
 // New Feature is added
 class MainActivity : AppCompatActivity() {
 
+    //this dev_4 from dev branch
     val viewModel: PostViewModel by viewModels()
 
     lateinit var recyclerView: RecyclerView
